@@ -4,35 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h2> My Portfolio</h2>
-    <img src="image/mypic.jpg"
-        width ="150px"
-        style="margin-left: auto;
-        margin-right: auto;
-        display:block"
-        />
-    <h2> Jiraphat Ponrat</h2>
-    <p style="text-align:center">Hi my name is Kawkum.Nice to meet you all.</p>
-    <h2>Experience</h2>
-    <div>
-      <h3> Hobbies</h3>
-      <p>I love to play games and listen to music. 
-      <br>In sometimes I watch movies.</p>
+    <div class="border-bottom d-flex">
+      <h2>My Portfolio</h2>
+      <a href="index.html" class="my-3 mx-2">Home </a>
+      <a href="Exp.html" class="my-3 mx-2"> Experience </a>
+      <a href="contact.html" class="my-3 mx-2">My Contact</a>
+      <a href="gallery.html" class="my-3 mx-2">Gallery</a>
     </div>
-    <div>
-      <h3>Sport competition</h3>
-      <p>I particated in sport competition of north-Thailand.
-        <br>But not in the top4.</p>
+    <h2 style="text-align: center">Experience</h2>
+    <div class="d-flex border mx-auto rounded-2 my-3" style="max-width: 36rem">
+      <img src="image/download.jfif" width="150px" height="150px" />
+      <div class="mx-3">
+        <h3 class="my-2">Hobbies</h3>
+        <div class="my-3px">
+          <p>
+            I love to play games and listen to music. <br />In sometimes I watch
+            movies.
+          </p>
+        </div>
+      </div>
     </div>
-    <p style="text-align: center;">
-      <a href="index.html">Home</a>
-       | 
-      <a href="Exp.html"> Experience</a>
-       | 
-      <a href="contact.html">My Contact</a>
-    </p>
+    <div class="d-flex border mx-auto rounded-2 my-3" style="max-width: 36rem">
+      <img src="image/yoyo.jfif" width="150px" height="150px" />
+      <div class="mx-3">
+        <h3 class="my-2">Sport Competition</h3>
+        <div class="my-3px">
+          <p>
+            I particated in sport competition of north-Thailand. <br />But not
+            in the top4.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
